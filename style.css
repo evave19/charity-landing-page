@@ -1,0 +1,109 @@
+/* GLOBAL STYLES */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Archivo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #FFD800;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: #8A9A5B;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #6f7c45;
+  transform: scale(1.05);
+}
+
+/* STORY SECTION */
+.story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #EADDC4;
+}
+
+.story img {
+  max-width: 100%;
+  flex: 1 1 300px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.story-text {
+  flex: 1 1 300px;
+}
+
+/* IMPACT / SUPPORTERS SECTION */
+.impact {
+  background-color: #A3C8D9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.impact h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.impact p {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  font-weight: 400;
+}
+
+/* FOOTER */
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .story {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .story img {
+    margin: 0 0 20px 0;
+  }
+}
